@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "15e54d81-7f1d-473f-8898-20cbc4e14b7d",
+		"name": "Prueva Java",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15265226"
+	},
+	"item": [
+		{
+			"name": "Consulta precios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?brandId=1&productId=35455&endDate=2020-06-14T10:00:00%2B00:00&startDate=2020-06-15T10:00:00%2B00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "endDate",
+							"value": "2020-06-14T10:00:00%2B00:00"
+						},
+						{
+							"key": "startDate",
+							"value": "2020-06-15T10:00:00%2B00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
